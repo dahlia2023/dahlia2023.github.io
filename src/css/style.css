@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('../fonts/CoFoSans-Bold.eot');
+    src: local('CoFo Sans Bold'), local('CoFoSans-Bold'),
+        url('../fonts/CoFoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CoFoSans-Bold.woff2') format('woff2'),
+        url('../fonts/CoFoSans-Bold.woff') format('woff'),
+        url('../fonts/CoFoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('../fonts/CoFoSans-Black.eot');
+    src: local('CoFo Sans Black'), local('CoFoSans-Black'),
+        url('../fonts/CoFoSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CoFoSans-Black.woff2') format('woff2'),
+        url('../fonts/CoFoSans-Black.woff') format('woff'),
+        url('../fonts/CoFoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('../fonts/CoFoSans-Regular.eot');
+    src: local('CoFo Sans'), local('CoFoSans-Regular'),
+        url('../fonts/CoFoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CoFoSans-Regular.woff2') format('woff2'),
+        url('../fonts/CoFoSans-Regular.woff') format('woff'),
+        url('../fonts/CoFoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CoFo Sans';
+    src: url('../fonts/CoFoSans-Medium.eot');
+    src: local('CoFo Sans Medium'), local('CoFoSans-Medium'),
+        url('../fonts/CoFoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CoFoSans-Medium.woff2') format('woff2'),
+        url('../fonts/CoFoSans-Medium.woff') format('woff'),
+        url('../fonts/CoFoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CoFo Robert';
+    src: url('../fonts/CoFoRobert-RegularItalic.eot');
+    src: local('CoFo Robert Italic'), local('CoFoRobert-RegularItalic'),
+        url('../fonts/CoFoRobert-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CoFoRobert-RegularItalic.woff2') format('woff2'),
+        url('../fonts/CoFoRobert-RegularItalic.woff') format('woff'),
+        url('../fonts/CoFoRobert-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+ body{
+    background-color: #d2c9bd;
+} 
+
+.main_img{
+    height: 900px;
+    width: auto;
+    background-image: url(../img/main.jpg);
+    background-size: 1000px auto;
+    z-index: 100;
+    background-position: center;
+    background-attachment: static;
+    background-repeat: no-repeat;
+}
+
+.relative{
+    position: relative;
+}
+
+.logo{
+    height: 330px;
+}
+
+.black_sq{
+    position: absolute;
+    right: 210px;
+    bottom: -50px;
+    width: 290px;
+    background-color: #383838;
+    height: 250px;
+}
+
+.header{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 29px;
+    color: white;
+}
+
+.year{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.red{
+    color: #b95b84;
+}
+
+@media (max-width:531px) {
+    .black_sq{
+        right: 10px;
+    }
+
+    .logo{
+        height: 250px;
+    }
+}
+
+.bg_black{
+    background-color: #383838;
+}
+
+.cofo{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.cofo20{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.line{
+    border-bottom: white 2px solid;
+}
+
+.black{
+    background-color: #383838;
+}
+
+.white{
+    background-color: white;
+}
+
+footer{
+    background-color: #383838;
+}
+
+.footer_head{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.model_head{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    color: #b95b84;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.model{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: underline;
+}
+
+.underline{
+    text-decoration: underline;
+    color: #b95b84;
+}
+
+.icon{
+    height: 22px;
+}
+
+.link{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.copy{
+    font-family: 'CoFo Robert', sans-serif;
+    font-size: 24px;
+    color: white;
+}
